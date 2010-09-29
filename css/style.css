@@ -66,6 +66,76 @@ ul#menu_top li a:hover, ul#menu_top li a:active {
     -moz-border-radius: 5px;
 }
 
+
+#menu_secoes{
+	background: url('../images/jeans.jpg');
+	clear: right;
+	float: right;
+	list-style: none;
+	margin-top: 6px;
+}
+
+#menu_secoes li{
+	display: inline;	
+}
+
+#menu_secoes li a.inicial:link,
+#menu_secoes li a.inicial:visited{
+	color: #FFF;
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: none;
+	width: 117px;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+#menu_secoes li a.inicial:hover,
+#menu_secoes li a.inicial:active{
+	
+}
+
+#menu_secoes li a.selecionado:link,
+#menu_secoes li a.selecionado:visited{
+	background: url('../images/menu_hover.jpg') no-repeat bottom;
+	color: #FFF;
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: none;
+	width: 117px;
+	text-align: center;
+	padding: 20px 0px;
+}
+
+ul[id|="sub"]{
+	background: #FCFCFC;
+	float: right;
+	clear: right;
+	padding-right: 20px;
+	-moz-border-radius: 4px 0px 4px 4px;
+	border-right: solid 1px #CCCCCC;
+	border-bottom: solid 1px #CCCCCC;	
+	
+}
+
+ul[id|="sub"] li{
+	display: inline;	
+}
+
+ul[id|="sub"] li a:link,
+ul[id|="sub"] li a:visited{
+	color: #696969;
+	display: inline-block;
+	text-decoration: none;
+	font: bold 12px Arial, Helvetica, sans-serif;
+	padding: 10px 20px;
+}
+
+ul[id|="sub"] li a:hover,
+ul[id|="sub"] li a:active{
+	color: #000066;	
+}
+
 #banner {
     float: left;
     background: url(../images/banner.jpg) no-repeat;
