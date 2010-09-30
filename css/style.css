@@ -331,6 +331,45 @@ ul[id|="sub"] li a:active{
     float: right;
 }
 
+#composicao {
+    font:9pt Arial, Helvetica, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#composicao caption {
+    font-weight: bold;
+}
+
+#composicao tfoot tr{
+    border: solid 1px #333333;
+}
+
+#composicao tfoot td{
+    color: #ffffff;
+    padding: 5px;
+    background: #999999;
+}
+
+#composicao tr.alt td{
+    background: #CCCCCC;
+}
+
+#composicao tbody td,
+#composicao th {
+    padding: 5px;
+    border: solid 1px #333333;
+}
+
+#composicao th{
+    color:#DCDCDC;
+    background: #666666;
+}
+
+.valor{
+    text-align: right;
+}
+
 #slideshow {
     margin-bottom: 20px;
     height: 157px;
@@ -392,6 +431,3 @@ ul[id|="sub"] li a:active{
     height: 100px;
     margin: 0 15px;
 }
-
-
-
