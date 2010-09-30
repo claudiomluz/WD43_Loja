@@ -36,7 +36,6 @@ $(document).ready(function(){
                 
                 function manageControls(position){
                     //esconde o primeiro controle se posicao for 1
-                    console.log(position);
                     if(position==0) { $('#leftControl').hide() } else { $('#leftControl').show() }
                     //esconde o segundo controle se posicao for 2
                     if(position==pages-1) { $('#rightControl').hide() } else { $('#rightControl').show() }
