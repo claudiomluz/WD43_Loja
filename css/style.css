@@ -450,6 +450,7 @@ ul[id|="sub"] li a:active{
 }
 
 #contato input[type=text],
+#contato input[type=email],
 #contato textarea {
     padding: 9px;
     border: solid 1px #000066;
@@ -459,6 +460,12 @@ ul[id|="sub"] li a:active{
     background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
     -moz-box-shadow: rgba(0,0,0, 0.5) 0px 0px 8px; 
 }
+
+#contato input[type=text]:invalid,
+#contato input[type=email]:invalid {
+    background: #FF0033;
+}
+
 
 #contato input:focus,
 #contato textarea:focus{

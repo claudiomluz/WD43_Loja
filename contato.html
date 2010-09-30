@@ -75,19 +75,19 @@
             <h5 class="aviso">O ITEM QUE VOCÊ SELECIONOU ESTÁ INDISPONÍVEL NO MOMENTO. PARA RECEBER UM AVISO POR EMAIL QUANDO O PRODUTO ESTIVER DISPONIVEL, PREENCHA O FORMULÁRIO ABAIXO.</h5>
             <p>
                 <label for="nome">Nome:</label><br/>
-                <input type="text" id="nome" />
+                <input type="text" id="nome" required="required" placeholder="obrigatório"/>
             </p>
             <p>
                 <label for="email">Email:</label><br/>
-                <input type="text" id="email" />
+                <input type="email" id="email" placeholder="digite seu e-mail"/>
             </p>
             <p>
                 <label for="codigo">Código do Produto:</label><br/>
-                <input type="text" id="codigo" />
+                <input type="text" id="codigo" placeholder="#ABC1234-56" pattern="#[A-z]{3}[0-9]{4}-[0-9]{2}"/>
             </p>
             <p>
                 <label for="mensagem">Mensagem (opcional):</label><br/>
-                <textarea id="mensagem" ></textarea>
+                <textarea id="mensagem" placeholder="digite sua mensagem"></textarea>
             </p>
             <br/>
             <input type="submit" />
