@@ -411,7 +411,7 @@ ul[id|="sub"] li a:active{
 
 #rightControl {
     top:0;
-    left:0;
+    right:0;
     background:transparent url(../images/right.jpg) no-repeat 0 0;
 }
 
