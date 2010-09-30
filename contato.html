@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <title>Mirror Fashion</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" > 
+    <meta charset="utf-8">
+    <link href="css/tabs.css" rel="stylesheet" type="text/css" media="screen" >
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" >
+    <script type="text/javascript" src="script/jquery-1.4.2.js"></script>
+    <script type="text/javascript" src="script/tabs.js"></script>
+    <script type="text/javascript" src="script/menu.js"></script>
+    <script type="text/javascript" src="script/produto.js"></script>
+    <script type="text/javascript" src="script/loja_tabs.js"></script>
+    <script type="text/javascript" src="script/slideshow.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+            <div class="container">
+
+                <div id="logo">
+                    <h1>Mirror Fashion</h1>
+                </div>
+                
+                <ul id="menu_top">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Novidades</a></li>
+                    <li><a href="#">Promoções</a></li>
+                    <li><a href="#">Notícias</a></li>
+                    <li><a href="#">Contatos</a></li>
+                </ul>
+
+                <ul id="menu_secoes">
+                    <li><a class="inicial" href="#" id="opt-feminino" >FEMININO</a></li>
+                    <li><a class="inicial" href="#" id="opt-masculino" >MASCULINO</a></li>
+                    <li><a class="inicial" href="#" id="opt-infantil" >INFANTIL</a></li>
+                </ul>
+
+                <ul id="sub-feminino">
+                    <li><a href="produto.html">CAMISAS</a></li>
+                    <li><a href="#">CALCAS</a></li>
+                    <li><a href="#">SAIAS</a></li>
+                    <li><a href="#">ACESSÓRIOS</a></li>
+                </ul>
+
+                <ul id="sub-masculino">
+                    <li><a href="#">CAMISAS</a></li>
+                    <li><a href="#">CALCAS</a></li>
+                    <li><a href="#">BERMUDAS</a></li>
+                    <li><a href="#">ACESSÓRIOS</a></li>
+                </ul>
+
+                <ul id="sub-infantil">
+                    <li><a href="#">BONÉS</a></li>
+                    <li><a href="#">CONJUNTOS</a></li>
+                    <li><a href="#">BRINQUEDOS</a></li>
+                    <li><a href="#">ACESSÓRIOS</a></li>
+                </ul>
+
+            </div>            
+    
+    </header>
+
+        <div id="main">    
+
+        <div class="container">
+
+        <form id="contato">
+            <h1 class="contato">CONTATO</h1>
+            <h5 class="aviso">O ITEM QUE VOCÊ SELECIONOU ESTÁ INDISPONÍVEL NO MOMENTO. PARA RECEBER UM AVISO POR EMAIL QUANDO O PRODUTO ESTIVER DISPONIVEL, PREENCHA O FORMULÁRIO ABAIXO.</h5>
+            <p>
+                <label for="nome">Nome:</label><br/>
+                <input type="text" id="nome" />
+            </p>
+            <p>
+                <label for="email">Email:</label><br/>
+                <input type="text" id="email" />
+            </p>
+            <p>
+                <label for="codigo">Código do Produto:</label><br/>
+                <input type="text" id="codigo" />
+            </p>
+            <p>
+                <label for="mensagem">Mensagem (opcional):</label><br/>
+                <textarea id="mensagem" ></textarea>
+            </p>
+            <br/>
+            <input type="submit" />
+        </form>
+
+        </div><!-- container -->
+
+        <div style="clear:both"></div>
+
+        <br />
+        <h4>COMBINE ESSE PRODUTO COM: </h4>
+            <div id="slideshow">
+                
+                <div id="slidesContainer">
+                    <div class="slide">
+                        <img src="images/combina01.jpg" />
+                        <img src="images/combina02.jpg" />
+                        <img src="images/combina03.jpg" />
+                        <img src="images/combina04.jpg" />
+                        <img src="images/combina05.jpg" />
+                        <img src="images/combina06.jpg" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/combina05.jpg" />
+                        <img src="images/combina06.jpg" />
+                        <img src="images/combina07.jpg" />
+                        <img src="images/combina01.jpg" />
+                        <img src="images/combina02.jpg" />
+                        <img src="images/combina03.jpg" />
+                    </div>
+                    <div class="slide">
+                        <img src="images/combina06.jpg" />
+                        <img src="images/combina07.jpg" />
+                        <img src="images/combina01.jpg" />
+                        <img src="images/combina02.jpg" />
+                        <img src="images/combina03.jpg" />
+                        <img src="images/combina04.jpg" />
+                    </div>
+                </div>
+        </div><!-- main -->
+
+<footer>
+    <div class="container">
+        <div id="info">
+            <ul>
+                <li><a href="#">Home</a> |</li>
+                <li><a href="#">Novidades</a> |</li>
+                <li><a href="#">Promoções</a> |</li>
+                <li><a href="#">Notícias</a> |</li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+            <p>@ 2010, mirror fashion, security & privacy</p>
+        </div>
+        <div id="newsletter">
+            <img src="images/twitter.jpg" />
+            <img src="images/rss.jpg" />
+            <p>NOVIDADES E PROMOÇÕES ? <input type="text"><img src="images/seta.jpg"/></p>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>
